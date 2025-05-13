@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header-utama">
+        <div class="logo">
+            <h1>Website Pribadi</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kemampuan">Kemampuan</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="konten-utama">
+        <section id="intro">
+            <div class="teks-intro">
+                <h2>Selamat Datang Di Website Pribadi Saya</h2>
+                <p>Berisi semua daftar dari pengalaman saya sebagai pengembang web.</p>
+                <p>Jelajahi proyek, kemampuan, dan testimoni dari pengalaman saya.</p>
+            </div>
+            <div class="gambar-intro">
+                <img src="img/pc1.jpg" alt="gambarSatu">
+            </div>
+        </section>
+
+        <section id="proyek">
+            <h2 class="judul-seksi">Proyek Saya</h2>
+            <div class="kontainer-proyek">
+                <article class="kartu-proyek">
+                    <h3>Fibonacci</h3>
+                    <p>Membuat perulangan yang menghasilkan deret Fibonacci dengan Java</p>
+                </article>
+                <article class="kartu-proyek">
+                    <h3>Kalkulator</h3>
+                    <p>Membuat kalkulator menggunakan operasi di JavaScript</p>
+                </article>
+                <article class="kartu-proyek">
+                    <h3>SQL</h3>
+                    <p>Membuat database di XAMPP dan mengoperasikan MySQL</p>
+                </article>
+                <article class="kartu-proyek">
+                    <h3>OOP</h3>
+                    <p>Objek dan metode yang membingungkan menggunakan Java</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="kemampuan">
+            <h2 class="judul-seksi">Kemampuan Saya</h2>
+            <div class="kontainer-kemampuan">
+                <article class="kartu-kemampuan">
+                    <h3>HTML</h3>
+                    <p>Masih sering bertanya-tanya dan sering lupa HTML.</p>
+                </article>
+                <article class="kartu-kemampuan">
+                    <h3>CSS</h3>
+                    <p>Tidak punya kreativitas untuk menentukan warna yang cocok.</p>
+                </article>
+                <article class="kartu-kemampuan">
+                    <h3>JavaScript</h3>
+                    <p>Yakin aku harus belajar ini, ini bahasa apa sih?</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimoni">
+            <h2 class="judul-seksi">Teman Berkata</h2>
+            <div class="kontainer-testimoni">
+                <article class="kartu-testimoni">
+                    <p>"Belajar yang rajin lagi ya, biar bisa hack NASA - teman 1"</p>
+                </article>
+                <article class="kartu-testimoni">
+                    <p>"Semangat belajar JavaScript ya, kamu! - teman 2"</p>
+                </article>
+                <article class="kartu-testimoni">
+                    <p>"Lu sebenernya niat pengen jadi programmer gak sih bro? - teman 3"</p>
+                </article>
+            </div>
+        </section>
+
+        <aside id="tentang-saya">
+            <h2>Tentang Saya</h2>
+            <img src="img/pc2.jpg" alt="Foto Anda">
+            <p>Halo, aku Rafly, spesialis mengacak-acak codingan teman.</p>
+        </aside>
+    </main>
+
+    <footer id="footer-utama">
+
+        <section id="kontak">
+            <h2 class="judul-seksi">Hubungi Saya</h2>
+            <form id="form-kontak">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+        <div class="sosial-media">
+            <p>Ikuti Saya</p>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+
+        <p>&copy; 2024 idCamp Dicoding.</p>
+    </footer>
+</body>
+
+</html>

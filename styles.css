@@ -1,0 +1,180 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+#header-utama {
+    background-color: #1e88e5;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#header-utama nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#header-utama nav ul li {
+    margin-left: 15px;
+}
+
+#header-utama nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#header-utama nav ul li a:hover {
+    background-color: black;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    padding: 40px 15px;
+    background-color: #fff;
+}
+
+.teks-intro {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.teks-intro h2 {
+    color: #333;
+}
+
+.gambar-intro img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+section {
+    padding: 40px 15px;
+}
+
+.judul-seksi {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.kontainer-proyek,
+.kontainer-kemampuan,
+.kontainer-testimoni {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.kartu-proyek,
+.kartu-kemampuan,
+.kartu-testimoni {
+    background-color: #90caf9;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.kartu-proyek:hover,
+.kartu-kemampuan:hover,
+.kartu-testimoni:hover {
+    transform: translateY(-5px);
+}
+
+#tentang-saya {
+    background-color: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+}
+
+#tentang-saya img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#form-kontak {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    color: black;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #388e3c;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #4caf50;
+}
+
+#footer-utama {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sosial-media {
+    margin: 10px 0;
+}
+
+.sosial-media p {
+    margin: 0;
+}
+
+.sosial-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sosial-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.sosial-media ul li a {
+    color: #ffa500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sosial-media ul li a:hover {
+    color: #ff6347;
+}
